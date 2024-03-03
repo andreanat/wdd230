@@ -11,22 +11,45 @@
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <img src="" alt="Your Profile Image">
         <span></span>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="site_plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
     <main>
-        <h1> </h1>
-        <p> </p>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card learning-activities">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li><a href="#">Activity 1</a></li>
+                <li><a href="#">Activity 2</a></li>
+                <li><a href="#">Activity 3</a></li>
+            </ul>
+        </section>
+        <section class="card information">
+            <h2>Information</h2>
+            <p>Weather: Sunny</p>
+            <p>Number of visits: 100</p>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p id="copyright"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script>
+        const currentYear = new Date().getFullYear();
 
+        const copyrightParagraph = document.getElementById("copyright");
+        copyrightParagraph.innerHTML = `&copy; ${currentYear} Andrea Munoz, Country`;
+
+        const lastModifiedParagraph = document.getElementById("lastModified");
+        lastModifiedParagraph.innerHTML = `Last modified: ${document.lastModified}`;
+    </script>
 </body>
 </html>
