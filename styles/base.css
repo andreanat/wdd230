@@ -21,16 +21,21 @@ body {
 	padding: 20px;
 	display: flex;
 	align-items: center;
+    flex-direction: column;
 }
 
 .profile-image {
     width: 100px;
     height: auto;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .banner h1 {
-	margin-right: 10px;
+	margin-right: 0px;
+}
+
+banner-text{
+    text-align: center;
 }
 
 nav {
