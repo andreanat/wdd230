@@ -16,6 +16,33 @@ body {
     padding: 20px;
 }
 
+.banner {
+    background-color: #36454f;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+.banner-text {
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.banner-text p {
+    font-size: 16px;
+}
+
+
 nav{
     display: flex;
     flex-direction: column;
