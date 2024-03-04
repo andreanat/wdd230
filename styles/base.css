@@ -17,52 +17,39 @@ body {
 }
 
 .banner {
-    background-color: #36454f;
-    display: flex;
-    align-items: center;
-    padding: 20px;
+	background-color: #36454f;
+	padding: 20px;
+	display: flex;
+	align-items: center;
 }
 
-.banner img {
-    width: 100px; /* Adjust the width as needed */
-    height: auto;
-    margin-right: 20px;
+.banner h1 {
+	margin-right: 10px;
 }
 
-.banner-text {
-    color: #fff;
+nav {
+	background-color: #36454f;
+	color: #fff;
 }
 
-.banner-text h1 {
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.banner-text p {
-    font-size: 16px;
-}
-
-
-nav{
-    display: flex;
-    flex-direction: column;
-}
-
-nav ul{
-    list-style-type: none;
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
 }
 
 nav a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    text-decoration: none;
-    background-color: #36454f; 
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
 }
 
 nav a:hover {
-    text-decoration: underline; 
+	text-decoration: overline;
+}
+
+.active {
+	color: yellow;
 }
 
 @media (min-width:768px){
