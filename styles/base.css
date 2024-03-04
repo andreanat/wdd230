@@ -17,10 +17,16 @@ body {
 }
 
 .banner {
-	background-color: #36454f;
+	background-color: #ffc0cb;
 	padding: 20px;
 	display: flex;
 	align-items: center;
+}
+
+.profile-image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .banner h1 {
